@@ -4,7 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const Apikey = 'ab889c050fa776768c8482fa51d3a622';
+const Apikey = 'Make your own api key';
 const base_url = 'https://api.openweathermap.org/data/2.5/weather';
 const getWeather = async (city) => {
   const url = `${base_url}?q=${city}&appid=${Apikey}&units=metric`;
