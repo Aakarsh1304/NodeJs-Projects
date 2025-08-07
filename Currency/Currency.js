@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-const apikey = '3b666ea19b624bfe0b87c09c';
+const apikey = 'Use your apiKey';
 const url = `https://v6.exchangerate-api.com/v6/${apikey}/latest/USD`;
 https.get(url, (res) => {
   let data = "";
