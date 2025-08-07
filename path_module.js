@@ -1,0 +1,10 @@
+const path =require('path');
+console.log(__dirname);
+const filepath =path.join("folder","students","data.txt");
+console.log(filepath);
+const A= path.parse(filepath);
+const B= path.basename(filepath);   
+const C= path.dirname(filepath);
+const D= path.extname(filepath);
+const E= path.resolve(filepath);
+console.log({A,B,C,D,E,seprator:path.sep});
